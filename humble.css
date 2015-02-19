@@ -1,0 +1,60 @@
+#main {
+  white-space: normal;
+}
+.column>div>ul li {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 2px;
+  margin-bottom: 0px;
+}
+
+.column>div>ul ul{
+  white-space: normal;
+  max-width: 870px;
+  background: rgba(0,0,0,0.8);
+  display: block;
+  overflow: auto; 
+  position: absolute !important;
+  z-index: 100;
+  border: 1px solid #666;
+  border-bottom 2px solid #aaa;
+}
+.column>div>ul, .column>div>ul>li {
+  transition: 0.2s all ease-out;
+}
+#main a {
+  padding-left: 5px;
+  border: solid 2px transparent;
+  border-radius: 1px;
+}
+#main a:hover, #main a.open {
+  color: white;
+  font-weight: bold;
+  box-shadow: none;
+  background: rgba(0,0,0,0.3);
+  border-bottom-color: #ccc;
+  border-top-color: #ccc;
+  border-left-color: #ccc;
+  border-right-color: #ccc;
+}
+
+/*
+li .icon {
+  background-image: none !important;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 0px 10px 0px 0px;
+}
+li .icon[alt] {
+  background-image: none;
+  background: transparent;
+  border-radius: 0 0 0 0;
+}*/
+.wrap {
+  position: absolute !important;
+  transition: 0.2s;
+}
+a {
+  transition: none;
+}

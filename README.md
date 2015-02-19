@@ -10,3 +10,7 @@ ln -s <THIS_FOLDER>/gtk.css
 
 **Humble new Tab**
 use humble.css
+column size --
+column width ++
+text: #dbdbdb
+highlight text: #fffff
